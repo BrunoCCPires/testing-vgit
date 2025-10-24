@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Year Countdown</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="index.html">Black Friday</a>
+      <a href="christmas.html">Christmas</a>
+      <a href="newyear.html" class="active">New Year</a>
+    </nav>
+    <div id="app">
+      <h1>🎉 New Year Countdown</h1>
+      <div class="countdown">
+        <div class="time-box">
+          <span class="number" id="days">0</span>
+          <span class="label">Days</span>
+        </div>
+        <div class="time-box">
+          <span class="number" id="hours">0</span>
+          <span class="label">Hours</span>
+        </div>
+        <div class="time-box">
+          <span class="number" id="minutes">0</span>
+          <span class="label">Minutes</span>
+        </div>
+        <div class="time-box">
+          <span class="number" id="seconds">0</span>
+          <span class="label">Seconds</span>
+        </div>
+      </div>
+      <div class="date-info" id="targetDate"></div>
+    </div>
+    <script type="module" src="/src/newyear.js"></script>
+  </body>
+</html>

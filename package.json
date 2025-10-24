@@ -1,0 +1,15 @@
+{
+  "name": "testing-vgit",
+  "version": "1.0.0",
+  "main": "show-app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "playwright": "^1.56.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
